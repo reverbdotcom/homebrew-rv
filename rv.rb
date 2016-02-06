@@ -1,10 +1,10 @@
 class Rv < Formula
-  @version = "v0.0.1"
+  @version = "v0.0.2"
 
   desc "AWS node resolver"
   homepage "https://github.com/ebenoist/rv"
   url "https://github.com/ebenoist/rv/releases/download/#{@version}/binaries.tar.gz"
-  sha256 "8fcf9d4c5a9b57f5491adc54762936ad126ad3b3e375a949dd7d4b64547f7c07"
+  sha256 "4d6563dd902fd47d63b9377846c3db84a1565e1ce1f3a74b19edd7f2fcc70d29"
   version @version
 
   def install
