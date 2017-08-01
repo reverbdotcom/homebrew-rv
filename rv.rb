@@ -8,7 +8,7 @@ class Rv < Formula
   version @version
 
   def install
-    bin.install "rv-darwin-amd64" => "rv"
+    bin.install "rv.darwin" => "rv"
   end
 
   test do
